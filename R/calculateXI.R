@@ -39,11 +39,11 @@ calculateXI <- function(xvec, yvec, simple=TRUE, seed=12133331) {
 # n is the sample size.
   n <- length(xvec)							
 # PI is the rank vector for x, with ties broken at random
-  PI <- rank(xvec, ties.method = "average")	
+  PI <- rank(xvec, ties.method = "random")	
 # fr[i] is number of j s.t. y[j] <= y[i], divided by n.  
-  fr <- rank(yvec, ties.method = "average")/n		
+  fr <- rank(yvec, ties.method = "max")/n		
 # gr[i] is number of j s.t. y[j] >= y[i], divided by n.  
-  gr <- rank((- yvec), ties.method = "average")/n	
+  gr <- rank((- yvec), ties.method = "max")/n	
 # order of the x's, ties broken at random.
   ord <- order(PI)					
 # Rearrange fr according to ord.  
