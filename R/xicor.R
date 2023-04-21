@@ -33,9 +33,11 @@
 #' \item{sd}{The standard deviation.}
 #' \item{pval}{The test p-value.}
 #' }
-#' @note Dataset peas no longer available in psych, using psychTools.
+#' @note Dataset peas no longer available in psych, we are now using psychTools. 
+#' @note This version does not use a seed as argument, if reproducibility is an issue, set a seed before calling the function.
 #' @author Sourav Chatterjee, Susan Holmes
 #' @seealso dcov
+#' @import psychTools
 #' @export
 #' @references Chatterjee, S. (2020) <arXiv:1909.10140>.
 #' @keywords ~methods ~htest

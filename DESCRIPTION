@@ -1,7 +1,7 @@
 Package: XICOR
 Type: Package
 Title: Association Measurement Through Cross Rank Increments
-Version: 0.3.3
+Version: 0.4.1
 Author: Susan Holmes [aut,cre], Sourav Chatterjee [aut] 
 Maintainer: Susan Holmes <sp.holmes@gmail.com>
 Description: Computes robust association measures that do not 
@@ -11,14 +11,13 @@ Description: Computes robust association measures that do not
     Chatterjee, Sourav (2020) <arXiv:1909.10140>
     This package includes the Galton peas example.
 Depends: R (>= 3.5.0)
-License: GPL-3
-Date: 2020-05-25
+License: Apache License (>= 2)
+Date: 2023-04-07
 Encoding: UTF-8
-LazyData: true
 Imports: psychTools, stats
 Suggests: testthat (>= 2.1.0), ggplot2
-RoxygenNote: 7.1.0
+RoxygenNote: 7.2.3
 NeedsCompilation: no
-Packaged: 2020-05-25 09:40:57 UTC; Susan
+Packaged: 2023-04-21 12:21:25 UTC; susan
 Repository: CRAN
-Date/Publication: 2020-05-26 09:10:02 UTC
+Date/Publication: 2023-04-21 15:52:35 UTC
